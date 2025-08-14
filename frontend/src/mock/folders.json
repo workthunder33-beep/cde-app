@@ -1,0 +1,29 @@
+[
+  {
+    "id": "folder-1",
+    "name": "Design Documents",
+    "type": "folder",
+    "children": [
+      {
+        "id": "file-1",
+        "name": "FloorPlan.dwg",
+        "type": "file",
+        "version": 3,
+        "urn": "dummy-urn-floorplan"
+      },
+      {
+        "id": "file-2",
+        "name": "SiteLayout.rvt",
+        "type": "file",
+        "version": 1,
+        "urn": "dummy-urn-sitelayout"
+      }
+    ]
+  },
+  {
+    "id": "folder-2",
+    "name": "Specifications",
+    "type": "folder",
+    "children": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "file-1": {
+    "size": "2.3 MB",
+    "uploadedBy": "Raja Sharma",
+    "uploadedOn": "2025-08-01",
+    "status": "Approved"
+  },
+  "file-2": {
+    "size": "8.7 MB",
+    "uploadedBy": "John Doe",
+    "uploadedOn": "2025-08-03",
+    "status": "Draft"
+  }
+}
