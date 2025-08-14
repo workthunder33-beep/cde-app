@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3001/api/mock";
+const API_BASE = "https://cde-app-2.onrender.com";
 
 export async function getFolders() {
   const res = await fetch(`${API_BASE}/folders`);
