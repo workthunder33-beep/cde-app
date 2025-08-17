@@ -2,7 +2,6 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mockRoutes from "./routes/mock.js";
-
 dotenv.config();
 
 const app = express();
@@ -19,7 +18,7 @@ app.use(express.json());
 
 // Root route (for Render health check)
 app.get("/", (req, res) => {
-  res.send("✅ Backend is running");
+  res.send(" Backend is running jaydeep Das");
 });
 
 // Mock routes (Phase 1)
@@ -34,3 +33,6 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on port ${PORT}`);
 });
+
+
+
