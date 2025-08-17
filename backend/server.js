@@ -13,7 +13,6 @@ app.use(express.json());
 
 // Routes
 app.use("/api/mock", mockRoutes);  // Mock API
-app.use("/api/aps", apsRoutes);    // APS API (later)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
