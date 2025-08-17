@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import mockRoutes from "./routes/mock.js";   // ✅ your mock router
-import apsRoutes from "./routes/aps.js";     // ✅ APS router (future)
+
 
 dotenv.config();
 const app = express();
