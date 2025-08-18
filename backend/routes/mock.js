@@ -17,6 +17,9 @@ function loadJSON(fileName) {
 router.get("/folders", (req, res) => {
   res.json(loadJSON("folders.json"));
 });
+router.get("/", (req, res) => {
+  res.json("hi user i am live");
+});
 router.get("/metadata/:fileId", (req, res) => {
   const metadata = loadJSON("metadata.json");
   res.json(metadata[req.params.fileId] || {});
